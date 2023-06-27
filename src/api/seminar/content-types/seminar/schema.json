@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seminars",
+  "info": {
+    "singularName": "seminar",
+    "pluralName": "seminars",
+    "displayName": "Seminars",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slides": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "videoURL": {
+      "type": "string"
+    },
+    "reccomendation1": {
+      "type": "string"
+    },
+    "reccomendation2": {
+      "type": "string"
+    },
+    "reccomendation3": {
+      "type": "string"
+    },
+    "isFeatured": {
+      "type": "boolean"
+    },
+    "abstract": {
+      "type": "text"
+    }
+  }
+}
