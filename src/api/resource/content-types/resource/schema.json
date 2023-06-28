@@ -4,7 +4,8 @@
   "info": {
     "singularName": "resource",
     "pluralName": "resources",
-    "displayName": "Resources"
+    "displayName": "Resources",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,11 +19,12 @@
       "type": "text"
     },
     "pdf": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "reccomendation1": {
       "type": "string"
@@ -34,6 +36,9 @@
       "type": "string"
     },
     "isFeatured": {
+      "type": "boolean"
+    },
+    "isH1Update": {
       "type": "boolean"
     }
   }
