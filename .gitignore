@@ -76,12 +76,12 @@ $RECYCLE.BIN/
 # Misc.
 ############################
 
-*#
-ssl
-.idea
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+#*#
+#ssl
+#.idea
+#nbproject
+#public/uploads/*
+#!public/uploads/.gitkeep
 
 ############################
 # Node.js
@@ -106,7 +106,7 @@ coverage
 # Strapi
 ############################
 
-.env
+#.env
 license.txt
 exports
 *.cache
