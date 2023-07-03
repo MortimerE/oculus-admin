@@ -23,16 +23,7 @@
         "files"
       ]
     },
-    "videoURL": {
-      "type": "string"
-    },
-    "reccomendation1": {
-      "type": "string"
-    },
-    "reccomendation2": {
-      "type": "string"
-    },
-    "reccomendation3": {
+    "videoEmbed": {
       "type": "string"
     },
     "isFeatured": {
@@ -40,6 +31,19 @@
     },
     "abstract": {
       "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Category1",
+        "Category2"
+      ]
+    },
+    "recIsRandom": {
+      "type": "boolean"
+    },
+    "recommendations": {
+      "type": "string"
     }
   }
 }

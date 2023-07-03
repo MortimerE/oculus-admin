@@ -26,20 +26,25 @@
         "files"
       ]
     },
-    "reccomendation1": {
-      "type": "string"
-    },
-    "reccomendation2": {
-      "type": "string"
-    },
-    "reccomendation3": {
-      "type": "string"
-    },
     "isFeatured": {
       "type": "boolean"
     },
     "isH1Update": {
       "type": "boolean"
+    },
+    "recIsRandom": {
+      "type": "boolean"
+    },
+    "recommendations": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Tool",
+        "Resource ",
+        "H1"
+      ]
     }
   }
 }

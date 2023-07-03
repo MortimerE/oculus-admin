@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "Articles"
+    "displayName": "Articles",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,31 +21,32 @@
     "date": {
       "type": "string"
     },
-    "pdf": {
-      "allowedTypes": [
-        "files"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "reccomendation1": {
-      "type": "string"
-    },
-    "reccomendation2": {
-      "type": "string"
-    },
-    "reccomendation3": {
-      "type": "string"
+      ]
     },
     "abstract": {
       "type": "text"
+    },
+    "recommendations": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Category1",
+        "Category2"
+      ]
+    },
+    "recIsRandom": {
+      "type": "boolean"
+    },
+    "body": {
+      "type": "richtext"
     }
   }
 }

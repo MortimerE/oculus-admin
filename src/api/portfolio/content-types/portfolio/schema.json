@@ -37,20 +37,24 @@
         "images"
       ]
     },
-    "reccomendation1": {
-      "type": "string"
-    },
-    "reccomendation2": {
-      "type": "string"
-    },
-    "reccomendation3": {
-      "type": "string"
-    },
     "isFeatured": {
       "type": "boolean"
     },
     "abstract": {
       "type": "text"
+    },
+    "recommendations": {
+      "type": "string"
+    },
+    "recIsRandom": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Category1",
+        "Category2"
+      ]
     }
   }
 }
